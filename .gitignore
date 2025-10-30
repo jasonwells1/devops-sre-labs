@@ -1,0 +1,9 @@
+﻿**/.DS_Store
+**/.vscode
+**/.idea
+**/.terraform
+**/.terraform.lock.hcl
+**/.venv
+**/.pytest_cache
+**/node_modules
+**/.env
