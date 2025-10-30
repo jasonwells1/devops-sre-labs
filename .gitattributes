@@ -1,0 +1,12 @@
+﻿# Use LF for scripts and container/build files
+*.sh      text eol=lf
+Dockerfile text eol=lf
+*.dockerfile text eol=lf
+
+# Common infra files that run on Linux
+*.tf      text eol=lf
+*.tfvars  text eol=lf
+*.yaml    text eol=lf
+*.yml     text eol=lf
+
+# Everything else: leave to Git's defaults (core.autocrlf handles Windows checkouts)
